@@ -55,7 +55,8 @@
 
 /* TÍTULOS RESTO */
 h1 {
-   border: 2px solid var(--color-texto-secundario);
+   border: 2px solid;
+   border-color: var(--color-texto-secundario) !important;
    border-radius: 8px;
    color: var(--color-texto-secundario);
 }
