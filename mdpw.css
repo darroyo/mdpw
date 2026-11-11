@@ -1,1 +1,81 @@
- body{font-family:"Roboto Mono",monospace;font-size:16px}h1{background-color:#0091bd;color:white}h2{background-color:#bfe3ee;color:black}h3{background-color:#ffffff;color:gray}::marker{color:#0091bd}strong{color:#bd0000;font-weight:bolder}pre code,code{color:#00bd00}a,a:hover,a:visited{color:#bdba00}
+:root {
+   /********************************************************************/
+   /* VARIABLES GRUVBOX                                                   */
+   /********************************************************************/
+   --gruvbox-black-dark: #1d2021;
+   --gruvbox-black-medium: #282828;
+   --gruvbox-black-bright: #32302f;
+
+   --gruvbox-white-medium: #ebdbb2;
+
+   --gruvbox-blue-dark: #458588;
+   --gruvbox-blue-bright: #83a598;
+
+   --gruvbox-red-dark: #cc241d;
+   --gruvbox-red-bright: #fb4934;
+
+   --gruvbox-yellow-dark: #d79921;
+   --gruvbox-yellow-bright: #fabd2f;
+
+   --gruvbox-green-dark: #98971a;
+   --gruvbox-green-bright: #b8bb26;
+
+   --gruvbox-aqua-dark: #689d6a;
+   --gruvbox-aqua-bright: #8ec07c;
+
+   /********************************************************************/
+   /* VARIABLES DANI                                                   */
+   /********************************************************************/
+   --color-fondo-principal: var(--gruvbox-black-bright);
+   --color-fondo-secundario: var(--gruvbox-black-dark);
+
+   --color-fondo-tareas: var(--gruvbox-yellow-bright);
+
+   --color-texto-principal: var(--gruvbox-white-medium);
+   --color-texto-secundario: var(--gruvbox-blue-dark);
+
+   --color-texto-negritas: var(--gruvbox-red-dark);
+   --color-texto-enlaces: var(--gruvbox-yellow-dark);
+   --color-texto-codigo: var(--gruvbox-green-dark);
+}
+
+
+
+/********************************************************************/
+/* CSS CUSTOM                                                       */
+/*                                                                  */
+/* mejor tocar por variables si existe posibilidad                  */
+/********************************************************************/
+/* GENERAL */
+* {
+   /* FUENTE */
+   font-family: "Roboto Mono" !important;
+   font-weight: bold !important;
+}
+
+/* TÍTULOS RESTO */
+h1 {
+   border: 2px solid var(--color-texto-secundario);
+   border-radius: 8px;
+   color: var(--color-texto-secundario);
+}
+
+h2 {
+   text-decoration: underline;
+   color: var(--color-texto-secundario);
+}
+
+h3 {
+   color: var(--color-texto-secundario);
+}
+
+h4 {
+   font-style: italic;
+   color: gray;
+
+}
+
+h5 {
+   color: gray;
+
+}
